@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		007BAE812A051D210098E3CD /* etherealApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BAE802A051D210098E3CD /* etherealApp.swift */; };
-		007BAE832A051D210098E3CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BAE822A051D210098E3CD /* ContentView.swift */; };
 		007BAE852A051D240098E3CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007BAE842A051D240098E3CD /* Assets.xcassets */; };
 		007BAE882A051D240098E3CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007BAE872A051D240098E3CD /* Preview Assets.xcassets */; };
 		007BAE922A051D240098E3CD /* etherealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BAE912A051D240098E3CD /* etherealTests.swift */; };
 		007BAE9C2A051D240098E3CD /* etherealUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BAE9B2A051D240098E3CD /* etherealUITests.swift */; };
 		007BAE9E2A051D240098E3CD /* etherealUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BAE9D2A051D240098E3CD /* etherealUITestsLaunchTests.swift */; };
+		007BAEAD2A0539A60098E3CD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BAEAC2A0539A60098E3CD /* LoginView.swift */; };
+		007BAEAF2A0826AF0098E3CD /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BAEAE2A0826AF0098E3CD /* LoginModel.swift */; };
+		007BAEB12A0919890098E3CD /* etherealApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BAEB02A0919890098E3CD /* etherealApp.swift */; };
+		007BAEB32A091A120098E3CD /* ProductDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BAEB22A091A120098E3CD /* ProductDetails.swift */; };
+		007BAEB52A0A17D10098E3CD /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BAEB42A0A17D10098E3CD /* UserSettings.swift */; };
+		007BAEB72A0A220B0098E3CD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BAEB62A0A220B0098E3CD /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +39,6 @@
 
 /* Begin PBXFileReference section */
 		007BAE7D2A051D210098E3CD /* ethereal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ethereal.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		007BAE802A051D210098E3CD /* etherealApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = etherealApp.swift; sourceTree = "<group>"; };
-		007BAE822A051D210098E3CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		007BAE842A051D240098E3CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		007BAE872A051D240098E3CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		007BAE8D2A051D240098E3CD /* etherealTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = etherealTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,12 @@
 		007BAE972A051D240098E3CD /* etherealUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = etherealUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		007BAE9B2A051D240098E3CD /* etherealUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = etherealUITests.swift; sourceTree = "<group>"; };
 		007BAE9D2A051D240098E3CD /* etherealUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = etherealUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		007BAEAC2A0539A60098E3CD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		007BAEAE2A0826AF0098E3CD /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		007BAEB02A0919890098E3CD /* etherealApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = etherealApp.swift; path = ../../../.Trash/etherealApp.swift; sourceTree = "<group>"; };
+		007BAEB22A091A120098E3CD /* ProductDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetails.swift; sourceTree = "<group>"; };
+		007BAEB42A0A17D10098E3CD /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		007BAEB62A0A220B0098E3CD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,9 @@
 		007BAE7F2A051D210098E3CD /* ethereal */ = {
 			isa = PBXGroup;
 			children = (
-				007BAE802A051D210098E3CD /* etherealApp.swift */,
-				007BAE822A051D210098E3CD /* ContentView.swift */,
+				007BAEB02A0919890098E3CD /* etherealApp.swift */,
+				007BAEAB2A0538B20098E3CD /* View */,
+				007BAEAA2A0538A20098E3CD /* Model */,
 				007BAE842A051D240098E3CD /* Assets.xcassets */,
 				007BAE862A051D240098E3CD /* Preview Content */,
 			);
@@ -125,6 +134,25 @@
 				007BAE9D2A051D240098E3CD /* etherealUITestsLaunchTests.swift */,
 			);
 			path = etherealUITests;
+			sourceTree = "<group>";
+		};
+		007BAEAA2A0538A20098E3CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				007BAEAE2A0826AF0098E3CD /* LoginModel.swift */,
+				007BAEB42A0A17D10098E3CD /* UserSettings.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		007BAEAB2A0538B20098E3CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				007BAEAC2A0539A60098E3CD /* LoginView.swift */,
+				007BAEB22A091A120098E3CD /* ProductDetails.swift */,
+				007BAEB62A0A220B0098E3CD /* MainView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				007BAE832A051D210098E3CD /* ContentView.swift in Sources */,
-				007BAE812A051D210098E3CD /* etherealApp.swift in Sources */,
+				007BAEAD2A0539A60098E3CD /* LoginView.swift in Sources */,
+				007BAEB72A0A220B0098E3CD /* MainView.swift in Sources */,
+				007BAEB52A0A17D10098E3CD /* UserSettings.swift in Sources */,
+				007BAEB12A0919890098E3CD /* etherealApp.swift in Sources */,
+				007BAEB32A091A120098E3CD /* ProductDetails.swift in Sources */,
+				007BAEAF2A0826AF0098E3CD /* LoginModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
